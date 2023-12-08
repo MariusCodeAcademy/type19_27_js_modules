@@ -1,7 +1,7 @@
 // named importas
 import { avg, total, sandaug } from './modules/numberFn.js';
-// default import
-import makeEl from './modules/htmlEl.js';
+// default import, + named import
+import makeEl, { sayHi } from './modules/htmlEl.js';
 console.log('main.js file was loaded');
 
 // function skills
@@ -21,3 +21,4 @@ console.log('vid1 ===', vid1);
 const uzd1El = makeEl('h3', '', vid1);
 
 document.body.append(uzd1El);
+sayHi();
