@@ -9,8 +9,8 @@ export function total(n1, n2, n3, n4) {
   console.log('total:', n1 + n2 + n3 + n4);
   return n1 + n2 + n3 + n4;
 }
-
-function sandaug(n1, n2, n3, n4) {
+// exportuoti ir importuoti ir panaudoti sandaug fn main.js
+export function sandaug(n1, n2, n3, n4) {
   const rez = n1 * n2 * n3 * n4;
   console.log('sandaug ===', rez);
   return rez;
