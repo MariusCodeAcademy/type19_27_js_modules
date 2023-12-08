@@ -44,4 +44,5 @@ console.log('allThings ===', allThings);
 
 allThings.forEach(([key, val]) => {
   console.log(`${key} => ${val}`);
+  // setAttribute(key, val)
 });
