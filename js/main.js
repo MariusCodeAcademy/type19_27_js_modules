@@ -2,10 +2,10 @@
 import { avg, total, sandaug } from './modules/numberFn.js';
 // default import, + named import
 import makeEl, { sayHi } from './modules/htmlEl.js';
-import { users as vartotojai } from './modules/users.js';
+import { users as usersEn } from './modules/users.js';
 import Todo from './modules/TodoClass.js';
 // function skills
-
+// console.log('users ===', users);
 // total(4, 1, 5, 8, 7);
 // sandaug(4, 1, 5, 8, 7);
 
@@ -35,8 +35,8 @@ sayHi();
 // importuoti ir atspausdinti visu users objektu vardus
 const num1 = 500;
 
-console.table(vartotojai);
-vartotojai.forEach((uObj) => {
+console.table(usersEn);
+usersEn.forEach((uObj) => {
   console.log(uObj.name);
 });
 
