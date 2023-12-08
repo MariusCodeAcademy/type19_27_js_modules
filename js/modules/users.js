@@ -1,4 +1,4 @@
-const users = [
+export const users = [
   {
     name: 'John Doe',
     age: 25,
@@ -30,5 +30,5 @@ const users = [
     },
   },
 ];
-
-console.log(users);
+const num1 = 500;
+// console.log(users);

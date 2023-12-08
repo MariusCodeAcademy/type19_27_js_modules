@@ -14,7 +14,7 @@ function createHtmlEL(tagName, attrsObj, text = false) {
   }
   return newEl;
 }
-
+const num1 = 500;
 export function sayHi() {
   console.log('hi');
 }
