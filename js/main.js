@@ -1,16 +1,11 @@
-'use strict';
+import { avg, total } from './modules/numberFn.js';
+
 console.log('main.js file was loaded');
 
 // function skills
 
-// sukurti funkcija kuri suskaiciuoja 4 skaiciu vidurki
-// avg(4,5,8,7) grazina vidurki
-function avg(n1, n2, n3, n4) {
-  const total = n1 + n2 + n3 + n4;
-  return total / 4;
-}
-let avg1 = avg(4, 5, 8, 7);
-console.log('avg1 ===', avg1);
+total(4, 1, 5, 8, 7);
+
 // sukurti funkcija kuri suskaiciuoja masyvo gauto argumento vidurki
 // avgArr([4,1,5,8,7])
 
