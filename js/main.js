@@ -1,5 +1,7 @@
+// named importas
 import { avg, total, sandaug } from './modules/numberFn.js';
-import { makeEl } from './modules/htmlEl.js';
+// default import
+import makeEl from './modules/htmlEl.js';
 console.log('main.js file was loaded');
 
 // function skills
